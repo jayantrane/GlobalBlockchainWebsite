@@ -43,7 +43,7 @@ body
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
-	background: #FFFFFF;
+	background: #000000;
 	color: #a5a5a5;
 }
 div
@@ -1347,5 +1347,5 @@ section
 }
 
 h4{
-	text-align: center;
+	text-align: center
 }
