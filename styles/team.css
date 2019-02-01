@@ -102,5 +102,68 @@ button:focus{
 	}
 }
 
+.home_map_area {
+	position: relative;
+  }
+  
+  .home_map_area .mapBox2 {
+	min-height: 600px;
+  }
+  
+  .home_map_area .home_details {
+	position: absolute;
+	right: 0px;
+	width: 100%;
+	z-index: 10;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+  }
+  
+  .home_map_area .home_details .box_home_details {
+	background: #fff;
+	max-width: 457px;
+	float: right;
+	width: 100%;
+	padding-left: 92px;
+	padding-right: 92px;
+	padding-top: 112px;
+	padding-bottom: 112px;
+	border-radius: 10px;
+  }
+  
+  .home_map_area .home_details .box_home_details .media {
+	margin-bottom: 26px;
+  }
+  
+  .home_map_area .home_details .box_home_details .media:last-child {
+	margin-bottom: 0px;
+  }
+  
+  .home_map_area .home_details .box_home_details .media .d-flex {
+	padding-right: 20px;
+  }
+  
+  .home_map_area .home_details .box_home_details .media .d-flex i {
+	font-size: 20px;
+	background: -webkit-gradient(linear, left top, right top, from(#2c28b1), color-stop(70%, #9b5cf6));
+	background: -webkit-linear-gradient(left, #2c28b1 0%, #9b5cf6 70%);
+	background: -o-linear-gradient(left, #2c28b1 0%, #9b5cf6 70%);
+	background: linear-gradient(to right, #2c28b1 0%, #9b5cf6 70%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
+  
+  .home_map_area .home_details .box_home_details .media .media-body h4 {
+	font-size: 14px;
+	color: #222222;
+	text-transform: uppercase;
+  }
+  
+  .home_map_area .home_details .box_home_details .media .media-body p {
+	margin-bottom: 0px;
+  }
+  
 /* End Main Title Area css
 ============================================================================================ */
