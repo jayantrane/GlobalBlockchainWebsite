@@ -17,7 +17,12 @@
 
 </head>
 <body>
+<div>
+	<!-- <nodes.js embedding> -->
 
+<div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%;">
+        <canvas id="nodes"></canvas>
+</div>
 <div class="super_container">
 
 
@@ -333,16 +338,11 @@
 						<div class="pricing_item_content">
 							<div class="pricing_level">Student participants</div>
 							<div class="pricing_price">INR 1,000 </div>
-							<!-- <ul class="pricing_list">
-								<li>3 Conference Tickets</li>
-								<li>Vip Table</li>
-								<li>Drinks</li>
-								<li>Special PASS</li>
-								<li>VIP Dinner</li>
-							</ul> -->
-							<div class="pricing_info">
-								<a href="#">i</a>
-							</div>
+							<!-- <ul color = "black" >
+								Students intrested/working in Blockchain Technologies
+							</ul> --><br>
+							<br>
+
 							<div class="button pricing_button"><a href="#">Register Now</a></div>
 							<div class="button pricing_button"><a href="#">Interested</a></div>
 						</div>
@@ -356,15 +356,15 @@
 							<div class="pricing_level">Industry and Other participants</div>
 							<div class="pricing_price">INR 10,000 </div>
 							<!-- <ul class="pricing_list">
+								Employees, Engineers, Research fellows,etc working for Industries and Companies
 								<li>3 Conference Tickets</li>
 								<li>Vip Table</li>
 								<li>Drinks</li>
 								<li>Special PASS</li>
 								<li>VIP Dinner</li>
-							</ul> -->
-							<div class="pricing_info">
-								<a href="#">i</a>
-							</div>
+							</ul> --><br>
+							<br>
+
 							<div class="button pricing_button"><a href="#">Register Now</a></div>
 							<div class="button pricing_button"><a href="#">Interested</a></div>
 						</div>
@@ -377,16 +377,12 @@
 						<div class="pricing_item_content">
 							<div class="pricing_level">Academia and Government participants</div>
 							<div class="pricing_price">INR 3,000</div>
-							<!-- <ul class="pricing_list">
-								<li>3 Conference Tickets</li>
-								<li>Vip Table</li>
-								<li>Drinks</li>
-								<li>Special PASS</li>
-								<li>VIP Dinner</li>
+							 <!-- <ul class="pricing_list">
+								Professors and Government Representatives
 							</ul> -->
-							<div class="pricing_info">
-								<a href="#">i</a>
-							</div>
+							<br>
+							<br>
+
 							<div class="button pricing_button"><a href="#">Register Now</a></div>
 							<div class="button pricing_button"><a href="#">Interested</a></div>
 						</div>
@@ -600,6 +596,7 @@
 	</footer>
 
 </div>
+</div>
 </body>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap4/popper.js"></script>
@@ -613,6 +610,18 @@
 <script src="js/theme.js"></script>
 <script src="js/gmaps_help.js"></script>
 <!-- <script type="text/javascript" src="js/nodes.js"></script> -->
-
+<script type="text/javascript" src="js/nodes.js"></script>
+<script type="text/javascript">
+    var nodesjs = new NodesJs({
+        id: 'nodes',
+        width: window.innerWidth,
+        height: $(document).height(),
+        backgroundFrom: [10, 25, 100],
+        backgroundTo: [25, 50, 150],
+        backgroundDuration: 4000,
+        number: window.hasOwnProperty('orientation') ? 30: 150,
+        speed: 20
+    });
+</script>
 
 </html>
