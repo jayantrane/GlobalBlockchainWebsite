@@ -69,7 +69,7 @@ var NodesJs = (function (parameters) {
             var b = Math.floor(((Math.sin(Math.PI * 2 * Date.now() / t_NodesJs.backgroundDuration - Math.PI/2)+1)/2) * (t_NodesJs.backgroundFrom[2] - t_NodesJs.backgroundTo[2] + 1) + t_NodesJs.backgroundTo[2]);
 
             ctx.beginPath();
-            ctx.fillStyle = '#1d3c6d';
+            ctx.fillStyle = '#1e1e49';
             ctx.fillRect(0, 0, cw, ch);
             ctx.fill();
 
