@@ -1349,3 +1349,19 @@ section
 h4{
 	text-align: center
 }
+
+.form{
+	background-color: #FFFFFF;
+	margin-top: 80px;
+	align-content: center;
+	align-items: center;
+
+}
+
+input{
+	margin-left: auto 0px;
+	margin-right:auto 0px;
+	align-self: center;
+
+
+}
