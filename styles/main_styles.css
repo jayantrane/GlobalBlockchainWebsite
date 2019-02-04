@@ -220,6 +220,7 @@ section
 {
 	width: 100%;
 	overflow: hidden;
+
 }
 .prlx_parent
 {
@@ -307,7 +308,7 @@ section
 	background-image: linear-gradient(to right, #4867c0, #329fec);
 	background: #4867c0;
 	background: linear-gradient(to right, #4867c0, #329fec);
-	z-index: 101;
+	z-index: 150;
 	opacity: 0;
 	visibility: hidden;
 }
@@ -482,7 +483,7 @@ section
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 50%;
+	height: 80%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -491,8 +492,9 @@ section
 {
 	position: absolute;
 	left: 0;
-	top: 30%;
+	top: 140px;
 	width: 100%;
+	height: 100%;
 }
 .home_content
 {
@@ -506,10 +508,10 @@ section
 }
 .home_title
 {
-	font-size: 60px;
-	font-weight: 500;
+	font-size: 30px;
+	font-weight: 700;
 	color: #FFFFFF;
-	margin-top: -5px;
+	margin-top: 5px;
 	line-height: 1.2;
 }
 .home_location
