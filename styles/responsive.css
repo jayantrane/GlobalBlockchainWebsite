@@ -354,6 +354,11 @@
 	.home_content_container
 	{
 		top: 35%;
+		position: relative;
+		left: 0;
+		top: 25%;
+		width: 100%;
+		min-height: 50vh;
 	}
 	.intro,
 	.calendar
