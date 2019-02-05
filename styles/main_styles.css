@@ -492,9 +492,11 @@ section
 {
 	position: absolute;
 	left: 0;
-	top: 25%;
+	top: 30%;
 	width: 100%;
 	min-height: 50vh;
+	font-size: 18px;
+	
 }
 .home_content
 {
