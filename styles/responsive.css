@@ -27,6 +27,12 @@
 
 @media only screen and (max-width: 1600px)
 {
+	.intro_item
+	{
+		width: calc((100% - 30px) / 3);
+		background: #f3f7f9;
+		margin-bottom: 48px;
+	}
 
 }
 
@@ -36,6 +42,12 @@
 
 @media only screen and (max-width: 1440px)
 {
+	.intro_item
+	{
+		width: calc((100% - 30px) / 3);
+		background: #f3f7f9;
+		margin-bottom: 48px;
+	}
 	.intro, .calendar
 	{
 		padding-left: 104px;
@@ -71,7 +83,12 @@
 
 @media only screen and (max-width: 1280px)
 {
-
+	.intro_item
+	{
+		width: calc((100% - 30px) / 3);
+		background: #f3f7f9;
+		margin-bottom: 48px;
+	}
 }
 
 /************
@@ -375,6 +392,12 @@
 		width: 73px;
 		height: 73px;
 	}
+	.calendar_item_time_partner
+	{
+		display: block;
+		margin: auto;
+	}
+	
 	.calendar_item_time
 	{
 		margin-left: 25px;
