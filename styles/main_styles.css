@@ -1149,8 +1149,8 @@ section
 }
 .calendar_icon
 {
-	width: 27px;
-	height: 25px;
+	width: 30px;
+	height: 30px;
 }
 .calendar_icon img
 {
@@ -1179,11 +1179,18 @@ section
 {
 	margin-bottom: 35px;
 }
+.calendar_item_image2
+{
+	width: 103px;
+	height: 160px;
+	/*border-radius: 50%;*/
+	overflow: hidden;
+}
 .calendar_item_image
 {
 	width: 103px;
 	height: 103px;
-	border-radius: 50%;
+	/*border-radius: 50%;*/
 	overflow: hidden;
 }
 .calendar_item_image img
