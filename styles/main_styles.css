@@ -1102,6 +1102,7 @@ section
 	margin-right: auto;
 	margin-top: 42px;
 }
+
 .pricing_item_mid .pricing_button
 {
 	background: #FFFFFF;
@@ -1205,14 +1206,14 @@ section
 {
 	font-size: 30px;
 	font-weight: 500;
-	color: #000000;
+	color: #4c4c4c;
 	line-height: 0.75;
 }
 .calendar_item_time div:last-child
 {
 	font-size: 14px;
 	font-weight: 500;
-	color: #000000;
+	color: #4c4c4c;
 	margin-top: 11px;
 }
 .calendar_item_text
@@ -1223,20 +1224,20 @@ section
 {
 	font-size: 18px;
 	font-weight: 500;
-	color: #000000;
+	color: #4c4c4c;
 }
 .calendar_item_text div:nth-child(2)
 {
 	font-size: 16px;
 	font-weight: 400;
-	color: #000000;
+	color: #888888;
 	margin-top: 2px;
 }
 .calendar_item_text div:last-child
 {
 	font-size: 14px;
 	font-weight: 400;
-	color: #000000;
+	color: #888888;
 	margin-top: 5px;
 }
 
