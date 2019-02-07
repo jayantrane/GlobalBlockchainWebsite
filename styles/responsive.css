@@ -260,6 +260,7 @@
 	{
 		font-size: 36px;
 	}
+	
 	.home_location
 	{
 		font-size: 24px;
@@ -268,6 +269,16 @@
 	.home_buttons
 	{
 		margin-top: 44px;
+	}
+	.home_content_container
+	{
+		top: 35%;
+		position: relative;
+		left: 0;
+		margin-top: 100px;
+		top: 25%;
+		width: 100%;
+		min-height: 50vh;
 	}
 	.intro,
 	.calendar
