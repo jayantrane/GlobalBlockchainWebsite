@@ -475,7 +475,7 @@ section
 .home
 {
 	width: 100%;
-	min-height: 100vh;
+	min-height: 850px;
 }
 .home_background
 {
@@ -846,7 +846,7 @@ section
 }
 .intro_item
 {
-	width:10%;
+	width:calc((100% - 60px) / 3);
 	background: #f3f7f9;
 	margin-bottom: 48px;
 }
@@ -1102,6 +1102,7 @@ section
 	margin-right: auto;
 	margin-top: 42px;
 }
+
 .pricing_item_mid .pricing_button
 {
 	background: #FFFFFF;
